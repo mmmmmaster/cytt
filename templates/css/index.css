@@ -1,0 +1,44 @@
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.weixin{
+color:#000;
+font: 12px/1.5 宋体,Arial,sans-serif;	
+		}
+.weixin:hover{
+color: #cd1823;
+text-decoration: underline;
+	}
+#wx{
+	width:380px;
+	position:relative;
+	z-index:1000;
+	overflow:hidden;
+}
+.sc{
+padding-left: 20px;
+background:url(../img/sc.png) no-repeat  0 -4px;
+	}
+a.sc:hover{
+padding-left: 20px;
+background:url(../img/redsc.png) no-repeat  -1px -5px;
+	}
+.nav-bar{
+height: 38px;
+line-height: 36px;
+z-index: 10000;
+background: #f5f5f5;
+border-bottom: 1px solid #e3e3e3;
+}
+.col-md-6 .row .col-md-2{text-align: center}
+.fontset{font-family:"方正粗活意简体";height:60px;line-height:60px;font-size:26px;color:#999900;}
+.nav{height:60px; border-bottom:2px solid #99CC33} 
+.col-md-2 a{color:#000;display:block;  height:60px; line-height:60px; 
+ font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:16px} 
+.col-md-2 a:hover{text-decoration: none;color:#99CC33;cursor: pointer;border-bottom:4px solid #99CC33}
+.panel div{letter-spacing: 2px;}
+.con2{margin-top:10px;}
+.foot{height:80px; background:#00A2CA;background:#99CC33;}
+.foot .row{height:80px; line-height:40px;}
+.col-md-10{padding:15px 0 0 0;border-bottom:2px solid #99CC33; margin:auto}
+.title{border-bottom:4px solid #99CC33;letter-spacing: 2px;font-size:20px;font-weight: bold;}
+.bottom{margin-bottom:10px;}

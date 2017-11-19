@@ -1,0 +1,49 @@
+*{margin: 0;padding: 0;list-style: none;border: 0;}
+ a{text-decoration:none;}
+#focus{position: relative;height: 345px;width: 100%;margin:0px auto;}
+#focus .bd{position: relative}
+#focus .btn-prev, #focus .btn-next{display: none;position: absolute;top: 130px;width: 40px;height: 80px;z-index: 2}
+#focus .btn-prev{left: 0;background: url(../img/left-arrow.png) no-repeat;_background: 0;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../img/left-arrow.png")}
+#focus .btn-next{right: 0;background: url(../img/right-arrow.png) no-repeat;_background: 0;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../img/right-arrow.png")}
+#focus .focus-bar-box{width: 100%;height: 345px;position: relative;overflow: hidden}
+#focus .focus-bar{width: 100%}
+#focus .focus-bar li{float: left;width: 100%;height: 345px;}
+.li1{background: url("../img/1600-350-1.jpg") repeat-x scroll center 0 #fff;}
+.li2{background: url("../img/1600-350-2.jpg") repeat-x scroll center 0 #fff;}
+.li3{background: url("../img/1600-350-1.jpg") repeat-x scroll center 0 #fff;}
+.li4{background: url("../img/1600-350-2.jpg") repeat-x scroll center 0 #fff;}
+#focus .focus-bar li a{width: 100%;height: 100%;display: block}
+#focus .focus-bar li img{width: 100%;min-height: 100%}
+#focus .ft{position: absolute;left: 0;bottom: 0;z-index: 1;width: 100%;height: 40px}
+#focus .ftbg{
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	z-index: -1;
+	width: 1300px;
+	height: 40px;
+	/**background: #000;*/
+	opacity: .6;
+	filter: alpha(opacity=60)
+}
+#focus .change{position: relative;width:80px;margin:auto;height: 10px}
+#focus .change a{float: left;width: 10px;height: 10px;margin-right: 10px;background: url(../img/btn-normal.png) no-repeat;_background: 0;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../img/btn-normal.png");cursor: pointer}
+#focus .change a.on{background: url(../img/btn-active.png) no-repeat;_background: 0;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../img/btn-active.png")}
+#focus .hd{position: absolute;left: 0;bottom: 0;z-index: 0;width: 550px;height: 40px}
+#focus .focus-title{overflow: hidden;position: absolute;top: 0;left: 0;height: 40px;padding: 0 14px 0 0px;line-height: 40px;font-size: 16px;font-weight: bold}
+#focus .focus-title .title{color: #64d734}
+#focus .hdicon{
+	position: absolute;
+	left: 22px;
+	bottom: 16px;
+	width: 59px;
+	height: 59px;
+	background: url(../img/play-btn.png) no-repeat;
+	_background: 0;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src="../img/play-btn.png")}
+#focus .focus-title a{display: none;color: #fff}
+.tempWrap{margin:auto;}
